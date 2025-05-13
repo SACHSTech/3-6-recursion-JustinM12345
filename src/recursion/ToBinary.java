@@ -7,18 +7,15 @@ public class ToBinary {
             return "";
         }
 
-        if (someway to find if binary should be 1){
-            return 1 + recursive
+        if (n%2 == 0){
+            return toBinary(n/2) + "0";
         }
-        else if (someway to find if binary should be 0){
-            return 0 + recursive
+        else {
+            return toBinary(n/2) + "1";
         }
-
-
-
     }
 
     public static void main(String[] args){
-        System.out.println(toBinary(10));
+        System.out.println(toBinary(45));
     }
 }
