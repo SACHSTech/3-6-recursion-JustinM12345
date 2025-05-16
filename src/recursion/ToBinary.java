@@ -19,3 +19,4 @@ public class ToBinary {
         System.out.println(toBinary(45));
     }
 }
+
